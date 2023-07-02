@@ -1,5 +1,16 @@
+@font-face {
+    font-family: "AnonymousPro";
+    src: url('AnonymousPro-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url('AnonymousPro-Bold.ttf') format("truetype");
+    font-weight: 700;
+}
+
 main {
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .background {
@@ -51,9 +62,14 @@ main {
 .package__info {
     padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     color: #0e4f1f;
     background: white;
+    /* font-family: "AnonymousPro", sans-serif; */
+    /* font-weight: 700; */
+    text-shadow: 5px 5px 2;
+    font: 700 1.2rem "AnonymousPro", sans-serif 
+    /* font-style font-variant font-weight font-size/line-height font-family */
 }
 
 .clearfix {
